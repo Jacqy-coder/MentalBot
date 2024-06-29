@@ -3,7 +3,7 @@ import pandas as pd
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering, pipeline
 
 # Load data from CSV file
-data = pd.read_csv('C:/Users/Jacqy/Documents/bot/bot.csv')
+data = pd.read_csv('bot.csv')
 
 # Display the columns to verify their names and contents
 st.write("Columns in the dataset:")
