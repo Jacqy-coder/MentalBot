@@ -21,8 +21,6 @@ This repository contains a Streamlit-based chatbot designed to provide mental he
    ```bash
    pip install -r requirements.txt
 
-   ```q
-
    
 
 ## Running the Application:
@@ -30,9 +28,7 @@ This repository contains a Streamlit-based chatbot designed to provide mental he
 Execute the Streamlit app:
 
 ```bash
-streamlit run mental.py
-
-```q    
+streamlit run mental.py    
 
 Open the provided URL in a web browser to interact with the chatbot.
 
@@ -77,4 +73,5 @@ To improve the chatbot's responsiveness and handle new questions:
 
 - **Active Learning:**
   - Integrate user feedback mechanisms to refine the model and improve its ability to handle a broader range of questions over time.
+
 
