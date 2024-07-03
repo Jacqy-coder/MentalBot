@@ -23,7 +23,7 @@ def load_data(file_path):
     return data, qa_dict
 
 # Load data
-data, qa_dict = load_data('C:/Users/Jacqy/Documents/bot/bot.csv')
+data, qa_dict = load_data('bot.csv')
 
 # Initialize the question-answering pipeline
 tokenizer = AutoTokenizer.from_pretrained("deepset/roberta-base-squad2")
